@@ -126,6 +126,7 @@
 - (void)onResetPressed:(UIButton *)sender
 {
     chronoLabel.text = @"00:00:00";
+    startDate = [NSDate date];
 }
 
 - (void)addTime
