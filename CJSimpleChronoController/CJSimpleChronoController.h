@@ -15,4 +15,9 @@
     UIButton *resetButton;
 }
 
+- (void)updateTimer;
+- (void)onStartPressed:(UIButton *)sender;
+- (void)onStopPressed:(UIButton *)sender;
+- (void)onResetPressed:(UIButton *)sender;
+
 @end
